@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ADB Speed-Safety — Street View Map Assets</title>
+  <style>
+    body { font-family: system-ui, sans-serif; max-width: 680px; margin: 40px auto;
+           padding: 0 16px; line-height: 1.55; color: #1a1a1a; }
+    code { background: #f0f0f0; padding: 1px 5px; border-radius: 4px; }
+    img { border: 1px solid #ccc; border-radius: 6px; margin-top: 8px; }
+    a { color: #1f5c8b; }
+  </style>
+</head>
+<body>
+  <h1>ADB Speed-Safety — Street View Map Assets</h1>
+  <p>This site hosts the Street View thumbnails and dataset that power the
+     interactive <strong>kepler.gl</strong> speed-safety map.</p>
+  <ul>
+    <li><a href="kepler_svi.csv">kepler_svi.csv</a> — map dataset (lat/lon, speed
+        fields, and image URLs)</li>
+    <li><code>thumbs/S####.jpg</code> — labelled Street View image per segment,
+        e.g. <a href="thumbs/S0000.jpg">S0000.jpg</a></li>
+    <li><a href="KEPLER_README.md">KEPLER_README.md</a> — how to load it in
+        kepler.gl</li>
+  </ul>
+  <p>Sample labelled image:</p>
+  <img src="thumbs/S0000.jpg" width="360" alt="sample labelled Street View image">
+</body>
+</html>
